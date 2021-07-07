@@ -35,7 +35,7 @@ h2{
 	color: rgb(70, 70, 70)
 }
 h3{
-	font-size: 30px;
+	font-size: 35px;
 }
 p{
 	color: gray;
@@ -73,11 +73,12 @@ p{
 
 /* About me */
 .about-me{
-    background-image: url(images/7.png);
+    background-image: url(images/background.jpg);
     background-repeat: no-repeat;
+	background-size: 100%;
 }
 .about-me-img {
-    margin-top: 45px;
+    margin-top: 55px;
 }
 
 /* My recipies */
@@ -161,15 +162,20 @@ p{
 }
 /* footer-banner */
 .footer-banner{
-	background-image: url(images/bg.jpg);
+	background-image: url(images/faster-food-to-eat.jpg);
     background-repeat: no-repeat;
-	
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 100%;
+	padding: 100px 0;
+    text-align: center;
+	color: white;
+    line-height: 35px;
 }
-#overlay {
-	
-  }
-
-
+.footer-banner-text p {
+    color: white;
+    margin: 40px 140px;
+}
 
 
   /* footer */
